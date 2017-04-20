@@ -1,0 +1,242 @@
+
+.fondoslider img{
+  position: relative;
+  width: 100%;
+
+	overflow:auto;
+  position: fixed;
+  background-size: cover;
+  background-repeat:no-repeat;
+
+  margin:0px;
+  padding:0px;
+  min-height: 450px;
+	right: 0em;
+  top: 70px;
+  z-index: 0;
+
+}
+
+nav{
+  background-color: #000;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  top: -9px;
+  right: 0px;
+  z-index: 2000;
+}
+nav{
+  position: fixed;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+
+}
+ul {
+  list-style: none;
+}
+ul li a:hover{
+	background-color:#999;
+  padding: 25px;
+	-webkit-transition: background-color 1s ease;
+	-moz-transition: background-color 1s ease;
+	-o-transition: background-color 1s ease;
+	-ms-transition: background-color 1s ease;
+	transition: background-color 1s ease;
+}
+a{
+  font-size: 25px;
+}
+
+h1{
+  position: relative;
+  z-index: 90;
+  top: 90px;
+  background-color: #fff;
+  padding: 5px ;
+}
+
+ .boda1 , .boda2, .boda3 {
+
+  overflow:auto;
+  position: relative;
+
+  background-color: #999;
+  background-size: contain;
+  background-repeat:no-repeat;
+  height:300px;
+  right: 0em;
+  top: 100px;
+  padding:6px;
+float: left;
+}
+ .boda4 , .boda5, .boda6 {
+
+  overflow:auto;
+  position: relative;
+
+  background-color: #999;
+  background-size: contain;
+  background-repeat:no-repeat;
+  height:300px;
+  right: 0em;
+  top: 100px;
+  padding:6px;
+float: left;
+}
+h2{
+  width: 1300px;
+  position: absolute;
+  top: 850px;
+font-size: 2em;
+  z-index: 120;
+  background-color: #fff;
+  padding: 10px;
+}
+.cumple1 , .cumple2, .cumple3 {
+
+ overflow:auto;
+ position: relative;
+
+ background-color: #999;
+ background-size: contain;
+ background-repeat:no-repeat;
+ height:300px;
+ right: 0em;
+ top: 250px;
+ padding:6px;
+float: left;
+}
+h3{
+  width: 1300px;
+  position: absolute;
+  top: 41em;
+font-size: 2em;
+  z-index: 120;
+  background-color: #fff;
+  padding: 10px;
+}
+.baby1,.baby2,.baby3,.baby4 {
+
+ overflow:auto;
+ position: relative;
+ background-color: #999;
+ background-size: contain;
+ background-repeat:no-repeat;
+ height:300px;
+ right: 0em;
+ top: 450px;
+ padding:6px;
+float: left;
+}
+
+@media only screen and (max-width: 480px){
+  .boda1{
+   height:175px;
+ }
+   .boda2, .boda3,.boda4 , .boda5, .boda6{
+    overflow:auto;
+    position: relative;
+
+    background-color: #999;
+    background-size: contain;
+    background-repeat:no-repeat;
+    height:100px;
+    right: 0em;
+    top: 100px;
+    padding:6px;
+  }
+
+
+  .bodal{width:100%;}
+  .boda2{width:100%;}
+  .boda3{width:100%;}
+  .boda4{width:100%;}
+  .boda5{width:100%;}
+  .boda6{width:100%;}
+
+.cumple1 , .cumple2,.cumple3{width:100%;}
+.baby1,.baby2,.baby3,.baby4{width:100%;}
+
+
+  h2{
+    width: 1300px;
+    position: absolute;
+    top: 950px;
+  font-size: 2em;
+    z-index: 120;
+    background-color: #fff;
+    padding: 10px;
+  }
+  h3{
+    width: 1300px;
+    position: absolute;
+    top: 63.5em;
+  font-size: 2em;
+    z-index: 120;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+}
+@media screen and (min-width:720px) {
+  .bodal,.boda2{width:49%;}
+
+.boda3 , .boda4{width:48%;}
+.boda5 , .boda6{width:48%;}
+
+.cumple1 , .cumple2{width:48%;}
+.cumple3{width:97%;}
+.baby1,.baby2,.baby3,.baby4{width:48%;}
+
+h2{
+  width: 1300px;
+  position: absolute;
+  top: 1150px;
+font-size: 2em;
+  z-index: 120;
+  background-color: #fff;
+  padding: 10px;
+}
+h3{
+  width: 1300px;
+  position: absolute;
+  top: 59em;
+font-size: 2em;
+  z-index: 120;
+  background-color: #fff;
+  padding: 10px;
+}
+
+
+}
+@media only screen and (min-width: 1024px){
+  .boda1{width:32.33%;}
+  .boda2{width:32.33%;}
+  .boda3{width:32.33%;}
+  .boda4{width:32.33%;}
+  .boda5{width:32.33%;}
+  .boda6{width:32.33%;}
+.cumple1 , .cumple2, .cumple3{width:32.33%;}
+.baby1,.baby2,.baby3,.baby4{width:49%;}
+  h2{
+    width: 1300px;
+    position: absolute;
+    top: 850px;
+  font-size: 2em;
+    z-index: 120;
+    background-color: #fff;
+    padding: 10px;
+  }
+  h3{
+    width: 1300px;
+    position: absolute;
+    top: 42em;
+  font-size: 2em;
+    z-index: 120;
+    background-color: #fff;
+    padding: 10px;
+  }
+}
